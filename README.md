@@ -11,6 +11,7 @@ This repository contains a Jupyter Notebook demonstrating how to use OpenCV for 
   - ```cv2.circle()``` – Creates a circle with defined radius and color.
   - ```cv2.rectangle()``` – Draws a rectangle with customizable line thickness.
   - ```cv2.putText()``` – Adds text annotations using different fonts.
-- Displaying Images: Uses matplotlib.pyplot to render images in a notebook environment.
+- Displaying Images: Uses ``matplotlib.pyplot`` to render images in a notebook environment.
 
 ## Getting Started
+Click the button below to run the notebook in Google Colab and interact with the OpenCV drawing functions:
