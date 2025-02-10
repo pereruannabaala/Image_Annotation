@@ -12,3 +12,5 @@ This repository contains a Jupyter Notebook demonstrating how to use OpenCV for 
   - ```cv2.rectangle()``` – Draws a rectangle with customizable line thickness.
   - ```cv2.putText()``` – Adds text annotations using different fonts.
 - Displaying Images: Uses matplotlib.pyplot to render images in a notebook environment.
+
+## Getting Started
