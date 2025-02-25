@@ -8,5 +8,17 @@ To run this project, ensure you have the following dependencies installed:
 - NumPy (numpy)
 - Matplotlib (matplotlib)
 
+## Running the Notebook in Google Colab
+1. Open the Colab notebook by clicking the "Open in Colab" button.
+2. Run all cells to download assets and execute the OpenCV drawing functions.
 
+## Descriptions
+The script performs the following actions:
+1. Imports necessary libraries:
+``os``: For operating system related functionalities.
+``cv2``: OpenCV for image processing.
+``matplotlib``: For plotting images.
+``numpy``: For numerical operations.
+``zipfile``: To extract zip archives.
+``urllib.request``: To download files from URLs
 
