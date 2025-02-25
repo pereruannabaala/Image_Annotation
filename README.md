@@ -15,10 +15,34 @@ To run this project, ensure you have the following dependencies installed:
 ## Descriptions
 The script performs the following actions:
 1. Imports necessary libraries:
-``os``: For operating system related functionalities.
-``cv2``: OpenCV for image processing.
-``matplotlib``: For plotting images.
-``numpy``: For numerical operations.
-``zipfile``: To extract zip archives.
-``urllib.request``: To download files from URLs
+- ``os``: For operating system related functionalities.
+- ``cv2``: OpenCV for image processing.
+- ``matplotlib``: For plotting images.
+- ``numpy``: For numerical operations.
+- ``zipfile``: To extract zip archives.
+- ``urllib.request``: To download files from URLs
+2. Downloads and extracts assets:
+- A function ``download_and_unzip`` is defined to download a zip file from a given URL and extract its contents.
+- The script downloads a zip file containing an image ("Apollo_11_Launch.jpg") from a Dropbox URL and extracts it into the current directory.
+3. Loads and displays the image:
+- The image "Apollo_11_Launch.jpg" is loaded using ``cv2.imread``.
+- The image is displayed using ``matplotlib.pyplot.imshow``. Note that OpenCV uses BGR color format, so the image is converted to RGB using ``[:, :, ::-1]`` before displaying.
+4. Draws a line:
+- A copy of the original image is created.
+- ``cv2.line`` is used to draw a yellow line on the image.
+- The modified image is displayed.
+5. Draws a circle:
+- A copy of the original image is created.
+- ``cv2.circle`` is used to draw a red circle on the image.
+- The modified image is displayed.
+6. Draws a rectangle:
+- A copy of the original image is created.
+- ``cv2.rectangle`` is used to draw a magenta rectangle on the image.
+- The modified image is displayed.
+7. Adds text:
+- A copy of the original image is created.
+- ``cv2.putText`` is used to add text to the image.
+- The modified image is displayed.
+
+
 
