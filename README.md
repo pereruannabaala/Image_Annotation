@@ -54,4 +54,4 @@ The script performs the following actions:
 ## Conclusion
 This project demonstrates how to download image assets and perform basic drawing operations using OpenCV. Modify the coordinates, colors, and text to explore different effects.
 
-Happy coding!:smile:
+Happy coding! :smile:
