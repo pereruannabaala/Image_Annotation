@@ -44,9 +44,14 @@ The script performs the following actions:
 - ``cv2.putText`` is used to add text to the image.
 - The modified image is displayed.
 
-##Code Explanation
+## Code Explanation
 - ``cv2.line(img, pt1, pt2, color[, thickness[, lineType[, shift]]])``: Draws a line between two points.
 - ``cv2.circle(img, center, radius, color[, thickness[, lineType[, shift]]])``: Draws a circle.
 - ``cv2.rectangle(img, pt1, pt2, color[, thickness[, lineType[, shift]]])``: Draws a rectangle.
 - ``cv2.putText(img, text, org, fontFace, fontScale, color[, thickness[, lineType[, bottomLeftOrigin]]])``: Adds text to an image.
 - ``plt.imshow(image[:, :, ::-1])``: Displays an image using Matplotlib, converting it from BGR to RGB.
+
+## Conclusion
+This project demonstrates how to download image assets and perform basic drawing operations using OpenCV. Modify the coordinates, colors, and text to explore different effects.
+
+Happy coding!
